@@ -40,8 +40,8 @@ model = LogisticRegression(class_weight='balanced', max_iter=1000)
 model.fit(X_train, y_train)
  
 # Step 6: Save model and vectorizer
-joblib.dump(model, "vandalism_model.pkl")
-joblib.dump(vectorizer, "tfidf_vectorizer.pkl")
+# joblib.dump(model, "vandalism_model.pkl")
+# joblib.dump(vectorizer, "tfidf_vectorizer.pkl")
  
 # ---------- STREAMLIT APP ----------
  
