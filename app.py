@@ -21,7 +21,7 @@ from recommendation_utils import (
 # ---------- TRAINING PHASE ----------
  
 # Step 1: Load dataset
-df = pd.read_csv("D:\M.Tech\Machine Learning with Big Data\Project\Dataset\pan-wikipedia-vandalism-corpus-2011\pan-wikipedia-vandalism-corpus-2011\edits-en.csv")
+df = pd.read_csv("\workspaces\MLBD_WikipediaVandalism\Dataset\edits-en.csv")
  
 # Step 2: Preprocessing
 df['editcomment'] = df['editcomment'].fillna('')
